@@ -1,18 +1,21 @@
 {
-  "name": "badwords-list",
+  "name": "italian-badwords-list",
   "version": "1.0.0",
-  "author": "Michael Price <webmech@gmail.com>",
+  "author": "Mirko Tafuri alias Krusk8 <krusk8@gmail.com>",
   "license": "MIT",
-  "description": "A highly consumable list of bad (profanity) english words (forked from badwords)",
+  "description": "italian-badwords-list lista di parolacce italiane, list of bad (profanity) italian words",
   "main": "./lib/index",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R nyan"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:web-mech/badwords-list.git"
+    "url": "git@github.com:krusk8/italian-badwords-list.git"
   },
   "keywords": [
+    "parolacce",
+    "italian",
+    "italiane",
     "bad",
     "word",
     "words",
@@ -28,6 +31,6 @@
     "better-assert": "1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/web-mech/badwords-list/issues"
+    "url": "https://github.com/krusk8/italian-badwords-list/issues"
   }
 }

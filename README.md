@@ -1,9 +1,19 @@
-badwords-list v1.0.0
+italian-badwords-list v1.0.0
 ========
 
-A highly consumable list of bad (profanity) english words based on the nice short and simple list found in [Google's "what do you love" project](http://www.wdyl.com/) made accessable by [Jamie Wilkinson](https://gist.github.com/jamiew) [here](https://gist.github.com/jamiew/1112488)
+lista di parolacce italiane
+dizionario di parolacce italiane
+list of bad (profanity) italian words 
+italian badwords list
 
-Inspired by [badwords](https://github.com/MauriceButler/badwords)
+Ringraziamenti/Thanks to all: 
+[Google's "what do you love" project](http://www.wdyl.com/)
+[Jamie Wilkinson](https://gist.github.com/jamiew) 
+[here](https://gist.github.com/jamiew/1112488)
+[badwords](https://github.com/MauriceButler/badwords)
+[badwords-list](https://github.com/web-mech/badwords-list)
+[parolacce.org](https://www.parolacce.org/)
+
 
 This data has been exposed as an object that contains
 
@@ -17,13 +27,13 @@ depending on what is required for your purposes.
 Install
 =======
 
-    npm install badwords-list
+    npm install italian-badwords-list
 
 Usage
 =====
 
 ```
-var list = require('badwords-list'),
+var list = require('italian-badwords-list'),
 	array = list.array,
 	object = list.object,
 	regex = list.regex;
