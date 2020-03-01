@@ -1,6 +1,6 @@
 {
   "name": "italian-badwords-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Mirko Tafuri alias Krusk8 <krusk8@gmail.com>",
   "license": "MIT",
   "description": "italian-badwords-list lista di parolacce italiane, list of bad (profanity) italian words",
@@ -24,7 +24,10 @@
     "blacklist",
     "black",
     "list",
-    "swear"
+    "swear",
+    "leet",
+    "translator",
+    "filter"
   ],
   "devDependencies": {
     "mocha": "^5.2.0",

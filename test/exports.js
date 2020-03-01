@@ -15,4 +15,13 @@ describe('filter', function(){
     var list = require('../lib/index');
     assert(list.hasOwnProperty('regex'));
   });
+ 
+  it('Should contain property transformToLeet', function(){
+    let list = require('../lib/index');
+    assert(list.hasOwnProperty('transformToLeet'));
+    let transformToLeet = list.transformToLeet;
+    let original='tested phrase';
+    let transformed = transformToLeet(original);
+    assert(transformed === '+35+3|) |D#|2@53');
+  });
 });

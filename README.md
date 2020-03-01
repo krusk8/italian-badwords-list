@@ -1,4 +1,4 @@
-italian-badwords-list v1.0.0
+italian-badwords-list v1.0.1
 ========
 
 lista di parolacce italiane
@@ -18,11 +18,10 @@ Ringraziamenti/Thanks to all:
 This data has been exposed as an object that contains
 
  - an array
- - an object
  - a regular expression
+ - a function to transform words to leet( leet -> 1337)
 
 depending on what is required for your purposes.
-
 
 Install
 =======
@@ -33,10 +32,13 @@ Usage
 =====
 
 ```
-var list = require('italian-badwords-list'),
-	array = list.array,
-	object = list.object,
-	regex = list.regex;
+let list = require('italian-badwords-list'),
+let array = list.array,
+let regex = list.regex;
+let transformToLeet = list.transformToLeet;
+let original = 'text';
+let transformed = transformToLeet(original);
+
 ```
 
 Testing
