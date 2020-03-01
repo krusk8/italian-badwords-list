@@ -1,4 +1,4 @@
-italian-badwords-list v1.0.1
+italian-badwords-list v1.0.3
 ========
 
 lista di parolacce italiane
